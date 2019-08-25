@@ -1,0 +1,37 @@
+{
+  "name": "node-red-contrib-bluetooth-serial-port",
+  "version": "0.0.1",
+  "description": "A Node-RED node for sending messages over Bluetooth Classic Serial",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomRider/node-red-contrib-bluetooth-serial-port.git"
+  },
+  "keywords": [
+    "node-red",
+    "nodes",
+    "flow",
+    "bluetooth",
+    "serial"
+  ],
+  "node-red": {
+    "nodes": {
+      "btserialport": "nodes/bt-serial-port/bt-serial-port.js"
+    }
+  },
+  "author": "Jérôme Wiedemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RomRider/node-red-contrib-bluetooth-serial-port/issues"
+  },
+  "homepage": "https://github.com/RomRider/node-red-contrib-bluetooth-serial-port",
+  "dependencies": {
+    "bluetooth-serial-port": "^2.2.6"
+  },
+  "devDependencies": {
+    "node-red": "^0.20.7",
+    "node-red-node-test-helper": "^0.2.3"
+  }
+}
