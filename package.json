@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/RomRider/node-red-contrib-bluetooth-serial-port",
   "dependencies": {
-    "bluetooth-serial-port": "^2.2.6"
+    "bluetooth-serial-port": "*"
   },
   "devDependencies": {
     "node-red": "^0.20.7",
